@@ -5,6 +5,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html,body{
@@ -80,7 +81,7 @@ video{
     text-transform: uppercase;
     animation: waviy 1s infinite;
     animation-delay: calc(.1s * var(--i));
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     
   }
   #wave span:hover{
@@ -105,10 +106,46 @@ video{
   #page1{
     width: 100%;
     height: 100vh;
+    
   }
 
   #page1 h3{
     width: 50%;
+    margin-left: 27%;
     position: relative;
     text-align: center;
+    font-weight: 500;    
   }
+
+  #page1 h3:hover{
+    color: #b8b6b6;
+  }
+
+  #card{
+    height: 25vh;
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 30px;
+    background-color:#000;
+    z-index: 1;
+  }
+
+  #card h3{
+   text-align: center;
+   white-space:nowrap;
+   padding-top: 50px;
+   
+  }
+
+  .input-card{
+    position: relative;
+    height: 20px;
+    width: 28%;
+    padding: 10px;
+  }
+  #input{
+    padding: 0 10%;
+    padding-top: 10px;
+  }
+
+ 
